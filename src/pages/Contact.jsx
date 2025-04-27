@@ -2,7 +2,7 @@ import React from 'react'
 import Heading from '../componenets/Heading'
 const Contact = () => {
   return (
-    <div className='bg-[url(src/assets/contact.webp)] bg-no-repeat bg-cover'>
+    <div className='bg-[url(public/contact.webp)] bg-no-repeat bg-cover'>
     <Heading message={"Write to Us"} color="text-white" />
    <form className=" flex flex-col gap-5 w-[50%] m-auto">
     <label className='block text-white'>Name</label>
